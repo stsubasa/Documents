@@ -2,6 +2,13 @@
 <div style="text-align: right;">記述：2022/04/10</div>
 
 ---
+■ 注意事項
+
+**<font color=red>※ダウンロード時にMicrosoftアカウントが必要になるので、作成しておいてください。</font>**
+
+**<font color=red>※VisualStudio2019の初回起動時にMicrosoftアカウントが必要になるので、ダウンロード時に作成したアカウントでサインインしてください。</font>**
+
+---
 ## ■バージョン
 VisualStudio2019 Community
 
