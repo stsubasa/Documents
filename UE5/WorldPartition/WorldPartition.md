@@ -19,8 +19,8 @@
 |1|![](.\image\WorldPartition_00.png)|レベルアセットを作成する|
 |2|![](.\image\WorldPartition_01.png)|Unrealエディターのメニューから「ツール」→「レベルを変換」を選択|
 |3|![](.\image\WorldPartition_02.png)|「アセットダイアログ」で変換したいレベルアセットを選択|
-|4|![](.\image\WorldPartition_03.png)|変換設定を行い「OK」を選択<br>**<font color=red>設定項目については、後述する■レベル変換の設定一覧を参照</font>**|
-|5|![](.\image\WorldPartition_04.png)|メッセージウィンドウが表示され「変換完了」となっていれば変換成功|
+|4|![](.\image\WorldPartition_03.png)|変換設定を行い「OK」を選択<br>**<font color=red>設定項目については、後述する[■レベル変換の設定一覧](#■レベル変換の設定一覧)を参照</font>**|
+|5|![](.\image\WorldPartition_04_0.png)<br>![](.\image\WorldPartition_04_1.png)|メッセージウィンドウが表示され「変換完了」となっていれば変換成功<br>変換したレベルのアウトライナーに下記の2つのアクターが追加されます<br>・WorldDataLayers<br>・WorldPartitionMiniMap|
 |6|![](.\image\WorldPartition_05.png)|レベルのワールドパーティションを有効にする為、Unrealエディターのメニューから「ウィンドウ」→「ワールドセッティング」を選択|
 |7|![](.\image\WorldPartition_06.png)|ワールドセッティングの「ワールドパーティション」→「Enable Streaming」を有効にする|
 
