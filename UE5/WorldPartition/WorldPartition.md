@@ -24,7 +24,7 @@
 |5|![](.\image\WorldPartition_04_0.png)<br>![](.\image\WorldPartition_04_1.png)|メッセージウィンドウが表示され「変換完了」となっていれば変換成功<br>変換したレベルのアウトライナーに下記の2つのアクターが追加されます<br>・WorldDataLayers<br>・WorldPartitionMiniMap|
 |6|![](.\image\WorldPartition_05.png)|レベルのワールドパーティションを有効にする為、Unrealエディターのメニューから「ウィンドウ」→「ワールドセッティング」を選択|
 |7|![](.\image\WorldPartition_06.png)|ワールドセッティングの「ワールドパーティション」→「Enable Streaming」を有効にする|
-|8|![](.\image\WorldPartition_07.png)|ワールドセッティングの「ワールドパーティション」→「Cell Size」と「Loading Range」を設定する<br>・Cell Size：1セルのサイズ（Z,Y）<br>・Loading Range：ロードを始める距離<br>**<font color=red>※それぞれの値はゲームにあった数値を設定する必要があります</color>**|
+|8|![](.\image\WorldPartition_07.png)|ワールドセッティングの「ワールドパーティション」→「Cell Size」と「Loading Range」を設定する<br><br>【Cell Size】<br>1セルのサイズ（X,Y）。単位はcm。<br>画像の場合は128平方メートルとなる<br><br>【Loading Range】<br>ロードを始める距離。こちらも単位はcm<br><br>**<font color=red>※それぞれの値はゲームにあった数値を設定する必要があります</color>**|
 
 ---
 ### ■レベル変換の設定一覧
