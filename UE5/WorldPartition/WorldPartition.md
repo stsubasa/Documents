@@ -20,7 +20,7 @@
 |手順|画像|説明|
 |:--:|:--|:--|
 |1|![](.\image\WorldPartition_Create_00.png)|Unrealエディターのメニューから「ファイル」→「新規レベル」を選択|
-|1|![](.\image\WorldPartition_Create_01.png)|「新規レベル」ウィンドウで、「Open World」か「オープンワールドを空にします」を選択して「作成」<br>【オープンワールドを空にします】<br>ワールドパーティションに必要な「WorldDataLayers」と「WorldPartitionMiniMap」のみが配置されたレベルを作成します。<br>【Open World】<br>「オープンワールドを空にします」に加えて「ランドスケープ」も配置されたレベルを作成します。|
+|2|![](.\image\WorldPartition_Create_01.png)|「新規レベル」ウィンドウで、「Open World」か「オープンワールドを空にします」を選択して「作成」<br>【オープンワールドを空にします】<br>ワールドパーティションに必要な「WorldDataLayers」と「WorldPartitionMiniMap」のみが配置されたレベルを作成します。<br>【Open World】<br>「オープンワールドを空にします」に加えて「ランドスケープ」も配置されたレベルを作成します。|
 
 </details>
 
@@ -28,14 +28,11 @@
 
 |手順|画像|説明|
 |:--:|:--|:--|
-|1|![](.\image\WorldPartition_00.png)|レベルアセットを作成する|
-|2|![](.\image\WorldPartition_01.png)|Unrealエディターのメニューから「ツール」→「レベルを変換」を選択|
-|3|![](.\image\WorldPartition_02.png)|「アセットダイアログ」で変換したいレベルアセットを選択|
-|4|![](.\image\WorldPartition_03.png)|変換設定を行い「OK」を選択<br>**<font color=red>設定項目については、後述する[■レベル変換の設定一覧](#■レベル変換の設定一覧)を参照</font>**|
-|5|![](.\image\WorldPartition_04_0.png)<br>![](.\image\WorldPartition_04_1.png)|メッセージウィンドウが表示され「変換完了」となっていれば変換成功<br>変換したレベルのアウトライナーに下記の2つのアクターが追加されます<br>・WorldDataLayers<br>・WorldPartitionMiniMap|
-|6|![](.\image\WorldPartition_05.png)|レベルのワールドパーティションを有効にする為、Unrealエディターのメニューから「ウィンドウ」→「ワールドセッティング」を選択|
-|7|![](.\image\WorldPartition_06.png)|ワールドセッティングの「ワールドパーティション」→「Enable Streaming」を有効にする|
-|8|![](.\image\WorldPartition_07.png)|ワールドセッティングの「ワールドパーティション」→「Cell Size」と「Loading Range」を設定する<br><br>【Cell Size】<br>1セルのサイズ（X,Y）。単位はcm。<br>画像の場合は128平方メートルとなる<br><br>【Loading Range】<br>ロードを始める距離。こちらも単位はcm<br><br>**<font color=red>※それぞれの値はゲームにあった数値を設定する必要があります</color>**|
+|1|![](.\image\WorldPartition_Convert_00.png)|レベルアセットを作成する|
+|2|![](.\image\WorldPartition_Convert_01.png)|Unrealエディターのメニューから「ツール」→「レベルを変換」を選択|
+|3|![](.\image\WorldPartition_Convert_02.png)|「アセットダイアログ」で変換したいレベルアセットを選択|
+|4|![](.\image\WorldPartition_Convert_03.png)|変換設定を行い「OK」を選択<br>**<font color=red>設定項目については、後述する[■レベル変換の設定一覧](#■レベル変換の設定一覧)を参照</font>**|
+|5|![](.\image\WorldPartition_Convert_04_0.png)<br>![](.\image\WorldPartition_Convert_04_1.png)|メッセージウィンドウが表示され「変換完了」となっていれば変換成功<br>変換したレベルのアウトライナーに下記の2つのアクターが追加されます<br>・WorldDataLayers<br>・WorldPartitionMiniMap|
 
 ---
 ### ■レベル変換の設定一覧
@@ -54,6 +51,16 @@
 
 ---
 ## ■ワールドパーティションの設定
+
+<details><summary>基本的な設定</summary>
+
+|手順|画像|説明|
+|:--:|:--|:--|
+|1|![](.\image\WorldPartition_Setting_00.png)|レベルのワールドパーティションを有効にする為、Unrealエディターのメニューから「ウィンドウ」→「ワールドセッティング」を選択|
+|2|![](.\image\WorldPartition_Setting_01.png)|ワールドセッティングの「ワールドパーティション」→「Enable Streaming」を有効にする|
+|3|![](.\image\WorldPartition_Setting_02.png)|ワールドセッティングの「ワールドパーティション」→「Cell Size」と「Loading Range」を設定する<br><br>【Cell Size】<br>1セルのサイズ（X,Y）。単位はcm。<br>画像の場合は128平方メートルとなる<br><br>【Loading Range】<br>ロードを始める距離。こちらも単位はcm<br><br>**<font color=red>※それぞれの値はゲームにあった数値を設定する必要があります</color>**|
+
+</details>
 
 ---
 ## ■アクターの配置とセル割り当て
