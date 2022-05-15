@@ -13,7 +13,18 @@
 [UE5移行ガイド - ワールドパーティションへの変換](https://dev.epicgames.com/community/learning/talks-and-demos/J5q/upgrading-your-project-to-ue5)
 
 ---
-## ■ワールドパーティションの設定手順
+## ■ワールドパーティションレベルの作り方
+
+<details><summary>新規レベルをワールドパーティションレベルとして作成</summary>
+
+|手順|画像|説明|
+|:--:|:--|:--|
+|1|![](.\image\WorldPartition_Create_00.png)|Unrealエディターのメニューから「ファイル」→「新規レベル」を選択|
+|1|![](.\image\WorldPartition_Create_01.png)|「新規レベル」ウィンドウで、「Open World」か「オープンワールドを空にします」を選択して「作成」<br>【オープンワールドを空にします】<br>ワールドパーティションに必要な「WorldDataLayers」と「WorldPartitionMiniMap」のみが配置されたレベルを作成します。<br>【Open World】<br>「オープンワールドを空にします」に加えて「ランドスケープ」も配置されたレベルを作成します。|
+
+</details>
+
+<details><summary>既存のレベルをワールドパーティションレベルに変換</summary>
 
 |手順|画像|説明|
 |:--:|:--|:--|
@@ -39,9 +50,15 @@
 |Skip Stable GUIDValidation||
 |Only Merge Sub levels||
 |Save Foliage Type to Content Folder||
+</details>
 
 ---
-### ■アクターの配置とセル割り当て
+## ■ワールドパーティションの設定
+
+---
+## ■アクターの配置とセル割り当て
+
+<details><summary>アクターの配置</summary>
 
 |手順|画像|説明|
 |:--:|:--|:--|
@@ -51,3 +68,5 @@
 |4|![](.\image\WorldPartition_PlaceAndCells_03_00.png)|次に「ワールドパーティション」ウィンドウで、右下のセルを選択した状態で右クリックし、「選択したセルをアンロード」を選択します|
 |5|![](.\image\WorldPartition_PlaceAndCells_04_00.png)|すると、右下のセルに含まれている（3）で追加したアクターがアウトライナー上で「アンロード済み」となり、レベルビュー上でも非表示になります|
 |6|![](.\image\WorldPartition_PlaceAndCells_05_00.png)|（5）でアンロードしたセルを再び右クリックメニューからロードしたら、（3）で追加したアクターを座標（13000,200）に移動させて保存してください。<br>すると「ワールドパーティション」ウィンドウにセルが追加されたかと思います|
+
+</details>
